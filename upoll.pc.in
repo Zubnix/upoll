@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: upoll
+Description: upoll -- epoll for the poor
+Version: @VERSION@
+Libs: -L${libdir} -lup
+Cflags: -I${includedir}
+Requires: rt
