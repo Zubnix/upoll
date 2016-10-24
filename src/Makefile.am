@@ -25,5 +25,7 @@
 nobase_include_HEADERS = include/up.h
 lib_LTLIBRARIES = libup.la
 libup_la_SOURCES = upoll.c upoll.h
-libup_la_LDFLAGS = -bundle  -undefined dynamic_lookup -framework CoreServices
+#libup_la_LDFLAGS = -bundle  -undefined dynamic_lookup -framework CoreServices
+#PTZ161027 ? libtool:   error: can't build x86_64-unknown-cygwin shared library unless -no-undefined is specified
+libup_la_LDFLAGS = -no-undefined
 libup_la_LIBADD  = -lrt
