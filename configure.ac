@@ -12,7 +12,7 @@ AC_PROG_CC
 LT_INIT([disable-static])
 
 # Checks for libraries.
-#PKG_CHECK_MODULES([UPOLL], [upoll])
+#PKG_CHECK_MODULES([RT], [rt])
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdint.h])
