@@ -22,7 +22,7 @@
 # 	rm -f *.o *.so
 # .PHONY: all clean
 
-nobase_include_HEADERS = include/up.h
+nobase_include_HEADERS = up.h
 lib_LTLIBRARIES = libup.la
 libup_la_SOURCES = upoll.c upoll.h
 #libup_la_LDFLAGS = -bundle  -undefined dynamic_lookup -framework CoreServices
