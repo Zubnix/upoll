@@ -1,7 +1,7 @@
 #ifndef _UPOLL_H_
 #define _UPOLL_H_
 
-#include "./include/up.h"
+#include "up.h"
 
 #if (defined (__64BIT__) || defined (__x86_64__))
 # define __IS_64BIT__
